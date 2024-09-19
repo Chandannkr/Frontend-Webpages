@@ -1,0 +1,98 @@
+*{
+ margin: 0;   
+}
+.search>logo{
+    padding: 15px 0px;
+}
+header{
+display: flex;
+background-color: rgb(218, 160, 160);
+align-items: center;
+justify-content: space-between;
+padding: 0px 150px;
+height: 50px;
+}
+.search>input{
+    height: 30px;
+    width: 500px;
+    border: solid;
+    border-color: rgb(187, 179, 179);
+    border-radius: 5px;
+    transform: translateX(-150px);  /* For left side of input tag */
+    padding-left: 30px;
+}
+.search>svg{
+    height: 15px;
+    position: relative;
+    right: 120px;
+    z-index: 1;  /* logo ko bahar niklane ke liye */
+    top: 3px;
+}
+.btn select{
+    background-color: inherit;
+    border: none;
+    width: 130px;
+}
+.btn button{
+    font-size: 15px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+nav{
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+    height: 35px;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+nav a{
+ margin: 0px 5px;
+ text-decoration: none;
+ color: black;
+ font-family: sans-serif;
+}
+marquee img{
+    border-radius: 10px;
+    margin: 5px;
+}
+.titles h1{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.titles{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.titles a{
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.parent img{
+    width: 220px;
+    height: 400px;
+    border-radius: 9px;
+    position: relative;
+    top: 50px;
+    transition: 1s;
+}
+.parent img:hover{
+    top: 0px;
+}
+.parent>div{
+    width: 220px;
+}
+.parent h4,span{
+    font-family: sans-serif;
+}
